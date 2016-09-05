@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Blockchain</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+	<header class="caption">
+		<h1>Blockchain</h1>
+		<p>Цепочка блоков транзакций</p>
+	</header>
+	<section class="slide" id="cover">
+		<h2>Blockchain, not bitcoin</h2>
+		<p>Выполнила <a href="http://vk.com/kate_bender">Екатерина Тупий</a></p>
+		<img src="http://betanews.com/wp-content/uploads/2015/12/Blockchain-e1451302311129.jpg" alt="" class="cover">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#cover h2 {
+				margin:-50px 0 0;
+				color:#F00;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:380px 0 0;
+				text-align:center;
+				color:#000;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#F00;
+					}
+			</style>
+<style>			
+			#cover1 h2 {
+				margin:-50px 0 0;
+				color:#F00;
+				text-align:center;
+				font-size:70px;
+				}
+				
+			#cover1 p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#000;
+				font-size:23px;
+				}
+			#cover1 p a {
+					color:#000;
+					}
+		</style>
+	</section>
+	<section class="slide">
+		<h2 style = "color:#F00" align = "center">Блок транзакций</h2>
+		<ol>
+			<li>Блок транзакций — специальная структура для записи группы транзакций в системе Биткойн и аналогичных ей;</li>
+			<li>Каждый блок всегда содержит информацию о предыдущем блоке. Самый первый блок в цепочке — первичный блок — рассматривается как отдельный случай, так как у него отсутствует родительский блок;</li>
+			<li>Заголовок блока включает в себя свой хеш, хеш предыдущего блока, хеши транзакций и дополнительную служебную информацию;</li>
+			
+		</ol>
+	</section>
+	<section class="slide">
+		<h2 style = "color:#F00" align = "center">Цепочка блоков</h2>
+		<p style = "color:#000" align = "center"> <font size = "4">Распределенная база данных Blockchain формируется как непрерывно растущая цепочка блоков с записями о всех транзакциях. Копия базы или её части одновременно хранится на множестве компьютеров и синхронизируются согласно формальным правилам построения цепочки блоков. Информация в блоках не шифрована и доступна в открытом виде, но защищена от изменений криптографически через хэш-цепочки. Чаще всего, умышленное изменение информации в любой из копий базы или даже в достаточно большом количестве копий не будет признано истинным. Некоторые изменения могут быть приняты, если будут внесены во все копии базы (например, удаление нескольких последних блоков из-за ошибки в их формировании).</font></p>
+	</section>
+	<section class="slide">
+		<h2 style = "color:#F00" align = "center">"Цифровая монета"</h2>
+		<p style = "color:#000" align = "center">Для более наглядного объяснения механизма работы платёжной системы Сатоси Накамото ввёл понятие «цифровая монета», определив его как цепочку цифровых подписей. В отличие от стандартизированных номиналов обычных монет, каждая «цифровая монета» имеет свой собственный номинал. Каждому биткойн-адресу может сопоставляться любое количество «цифровых монет». При помощи транзакций их можно делить и объединять, при этом сохраняется общая сумма их номиналов за вычетом комиссии.</p>
+	<img src="https://ibsintelligence.com/wp-content/uploads/2016/01/blockchain-funding-branson.jpg" alt="" class="cover">
+	</section>
+	<section class="slide">
+		<h2 style = "color:#F00" align = "center">Блокчейн в России</h2>
+		<p style = "color:#000" align = "center">Технология blockchain на мой взгляд, — это новый интернет. Это идея такого же уровня, как интернет. И она не успела еще родиться, как наш центробанк сказал, что криптовалюты нельзя выпускать. Потом они сказали, что их нельзя ещё покупать, а теперь они говорят, что тех, кто попытается их купить, могут посадить в тюрьму. Мы понимаем, что весь прогресс в этом случае уйдёт за пределы России, все наши специалисты в области blockchain будут вынуждены работать в более удобных юрисдикциях.
+— Греф: России требуется новая система управления</p>
+	</section>
+	
+	<p class="badge">
+		<a href="https://github.com/liuzin">GitHub</a>
+	</p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
